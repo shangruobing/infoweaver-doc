@@ -1,17 +1,19 @@
-# NFQA 文档
+# Infoweaver-doc
 
-#### 介绍
+## Introduction
 
-NFQA 文档 采用 VitePress 构造
+Infoweaver is a notice file chatbot based on the knowledge graph and BERT model. This repository stores the infoweaver docs, which is made with Vitepress.
 
-#### 主要依赖
+## Dependency
 
 - VitePress 1.0.0-alpha.4
-- Vue 3.2.25
+- Vue.js 3.2.25
 
-#### 使用说明
-```
-// 新建 package.json 文件
+## Get Started
+
+1. Create the package.json file and copy the following content into it.
+
+```json
 {
   "dependencies": {
     "vitepress": "^1.0.0-alpha.4",
@@ -24,10 +26,18 @@ NFQA 文档 采用 VitePress 构造
   }
 }
 ```
-#### 常用命令
-```
-安装 npm install
-运行 npm run docs:dev
-构建 npm run docs:build
-预览 npm run docs:serve
+
+2. Install dependencies with the `npm install` command.
+3. Launch the server with the `npm run docs:dev` command.
+
+```bash
+# common commands
+# install
+npm install
+# run
+pm run docs:dev
+# build
+npm run docs:build
+# preview
+npm run docs:serve
 ```
